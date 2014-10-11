@@ -12,6 +12,7 @@ gem 'spring',        group: :development
 gem 'sass', '3.2.19' 
 gem 'bower-rails'
 gem "foreman"
+gem 'angular-rails-templates'
 
 group :production, :staging do
   gem "rails_12factor"
