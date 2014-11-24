@@ -1,4 +1,4 @@
-receta = angular.module ('receta', [
+receta = angular.module('receta',[
   'templates',
   'ngRoute',
   'controllers'
@@ -17,4 +17,3 @@ controllers = angular.module('controllers',[])
 controllers.controller("RecipesController", [ '$scope',
   ($scope)->
 ])
-
